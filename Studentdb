@@ -1,0 +1,6 @@
+create database studentdb; 
+use studentdb; 
+create table student(rno int,name varchar(50),course 
+varchar(20),fees float); 
+insert into student values(1,'shreya','java',5000); 
+select * from student;
